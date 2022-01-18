@@ -6,6 +6,9 @@
 //
 
 import UIKit
+import ZHBaseView
+import ZHNetwork
+
 
 class ViewController: UIViewController {
 
@@ -14,6 +17,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        let vc = FirstController()
+        vc.modalPresentationStyle = .fullScreen
+        self.present(vc, animated: true) {
+            vc.view.backgroundColor = UIColor.orange
+        }
+    }
 }
 

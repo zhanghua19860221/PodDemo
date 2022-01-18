@@ -13,14 +13,14 @@ target 'PodDemo' do
 #use_frameworks!
 
 # Pods for PodDemo
-#  pod 'ZHBaseView'
+  pod 'ZHBaseView'
 #  pod 'ZHBaseView', :path => '../ZHBaseView'
 #  pod 'ZHBaseView', :podspec => '../ZHBaseView/ZHBaseView.podspec'
-  pod 'ZHBaseView', :git => 'https://github.com/zhanghua19860221/ZHBaseView.git', :branch => 'master'
-#  pod 'ZHNetwork'
+#  pod 'ZHBaseView', :git => 'https://github.com/zhanghua19860221/ZHBaseView.git', :branch => 'master'
+  pod 'ZHNetwork'
 #  pod 'ZHNetwork', :path => '../ZHBaseView'
 #  pod 'ZHNetwork', :podspec => '../ZHBaseView/ZHBaseView.podspec'
-  pod 'ZHNetwork', :git => 'https://github.com/zhanghua19860221/ZHNetwork.git', :branch => 'master'
+#  pod 'ZHNetwork', :git => 'https://github.com/zhanghua19860221/ZHNetwork.git', :branch => 'master'
   pod 'CTMediator'
 
 end
